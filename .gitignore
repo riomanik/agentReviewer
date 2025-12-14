@@ -1,0 +1,56 @@
+# ======================
+# Go
+# ======================
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace
+/go.work
+/go.work.sum
+
+# Go build cache
+/bin/
+/build/
+
+# ======================
+# Environment variables
+# ======================
+.env
+.env.*
+!.env.example
+
+# ======================
+# IDE / Editor
+# ======================
+.idea/
+.vscode/
+*.iml
+
+# ======================
+# OS
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# Logs
+# ======================
+*.log
+
+# ======================
+# Temporary / runtime
+# ======================
+tmp/
+tmp/**
+.cache/
+
+# ======================
+# Railway / deployment
+# ======================
+.railway/

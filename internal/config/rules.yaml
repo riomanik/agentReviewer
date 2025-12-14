@@ -1,0 +1,15 @@
+- id: ANDROID_PERMISSION_EARLY
+severity: CRITICAL
+match:
+file: ".kt"
+contains: "READ_MEDIA_IMAGES"
+forbidden_context:
+  - "onCreate"
+  - "onViewCreated"
+
+
+  - id: GORM_NO_INDEX
+severity: MAJOR
+match:
+file: ".go"
+contains: "Where(\"shipment_id\")"
